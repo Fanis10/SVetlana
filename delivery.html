@@ -7,7 +7,7 @@
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
-	<title>Контакты</title>
+	<title>Доставка</title>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
 </head>
 
@@ -177,82 +177,169 @@
     </div>
 </header>
 
-			<section class="contacts">
+			<section class="delivery-info">
 				<div class="container">
-					<div class="contacts__inner">
-						<h1 class="contacts__title text48">Контакты | интернет-магазин «SVETLANA»</h1>
-						<div class="contacts__items">
-							<div class="contacts__item">
-								<div class="contacts__item-title">Интернет-магазин</div>
-								<div class="contacts__item-text">
-									Телефон: <a href="tel:8 960 046 64 88">8 960 046 64 88</a>
-									<span class="contacts__item-info">(24 часа в сутки, без выходных, звонок бесплатный)</span>
-								</div>
-								<div class="contacts__item-text">
-									E-mail: <a href="mailto:E-mail: order@svetlana">order@svetlana</a>
-								</div>
-							</div>
-							<div class="contacts__item">
-								<div class="contacts__item-title">Адрес:</div>
-								<div class="contacts__item-text">
-									Республика Татарстан, г. Зеленодольск, <br>
-									ул. Татарстана, 9, ТЦ Универмаг
-								</div>
-								<div class="contacts__item-title">Время работы:</div>
-								<div class="contacts__item-text">Пн-пт: 09.00—19.00; сб-вс: 09.00—18.00</div>
-							</div>
+					<div class="delivery-info__inner">
+						<h1 class="delivery__title text48">Информация о доставке</h1>
+						<div class="delivery__text">
+							<p>В интернет - магазине, в зависимости от региона и адреса, доступны следующие виды доставок:</p>
 						</div>
-						<div class="contacts__map">
-							<div id="map" class="map"></div>
+						<ul class="delivery__list delivery-info__list">
+							<li>Курьерская доставка с примеркой и частичным выкупом</li>
+							<li>Курьерская доставка без примерки</li>
+							<li>Доставка в пункты выдачи заказов</li>
+							<li>Доставка в постоматы</li>
+							<li>Самовывоз из магазина</li>
+							<li>Экспресс доставка из ближайшего магазина</li>
+						</ul>
+						<div class="delivery__text">
+							<p>Доставка всех заказов осуществляется сторонними курьерскими службами.</p>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="contacts-feedback">
+			<section class="delivery-cost">
+			<div class="container">
+				<div class="delivery-cost__inner">
+					<h2 class="delivery__title text40">Стоимость и сроки доставки</h2>
+					<div class="delivery__text">
+						<p class="bold-text">Сроки доставки зависят от выбранного способа доставки и города и в среднем составляют 2-14 дней.</p>
+						<p class="bold-text">Стоимость доставки зависит от вида доставки.</p>
+					</div>
+					<ul class="delivery__list delivery-cost__list">
+						<li>Экспресс доставка из магазина за 2 часа – 499 руб.</li>
+						<li>Доставка курьером - 399 руб.</li>
+						<li>До пункта выдачи или в постоматы от 299 руб.</li>
+						<li>Самовывоз из магазина – бесплатно</li>
+						<li>При покупке от 4500 рублей стоимость доставки - бесплатно.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+			<section class="delivery-courier">
 				<div class="container">
-					<div class="contacts-feedback__inner">
-						<h2 class="contacts-feedback__title text48">Обратная связь</h2>
-						<form class="contacts-feedback__form form">
-							<fieldset class="contacts-feedback__form-group form-group">
-								<div class="contacts-feedback__form-title form-group__title">Ваше имя</div>
-								<div class="contacts-feedback__form-input form-input">
-									<input type="tel" placeholder="+7 777 777 77 77">
+					<div class="delivery-courier__inner">
+						<h2 class="delivery__title text40">Доставка курьером с примеркой</h2>
+						<div class="delivery__text">
+							<p>В интернет - магазине, в зависимости от региона и адреса, доступна курьерская доставка с примеркой и частичным выкупом.Данный сервис позволяет перед покупкой примерить выбранные Вами товары и оставить только то, что подошло и отказаться от части товара.На примерку отводится 15 минут .Обратите внимание, что данный вид доставки недоступен, если Вы заказали более 10 вещей.Частичный выкуп недоступен для заказов, в которых присутствуют базовые акции.</p>
+						</div>
+						<div class="delivery__btns">
+							<div class="delivery__checkboxes">
+								<div class="delivery__checkbox">
+									<input type="checkbox">
+									<label></label>
 								</div>
-							</fieldset>
-							<fieldset class="contacts-feedback__form-group form-group">
-								<div class="contacts-feedback__form-title form-group__title">Электронная почта</div>
-								<div class="contacts-feedback__form-input form-input">
-									<input type="email" placeholder="order@svetlana">
+								<div class="delivery__checkbox delivery__checkbox2">
+									<input type="checkbox">
+									<label></label>
 								</div>
+							</div>
+							<button class="delivery__btn btn-red">
+								<span>Отправить</span>
+							</button>
+							<button class="delivery__btn2 btn-pink">
+								<span>Подписаться на рассылку</span>
+							</button>
+							<div class="delivery__select custom_select">
+								<select>
+									<option value="Без бретелей">Без бретелей</option>
+									<option value="Моделирующие">Моделирующие</option>
+									<option value="Новинки">Новинки</option>
+									<option value="Без бретелей">Без бретелей</option>
+								</select>
+							</div>
+						</div>
+						<form class="delivery__form form">
+							<fieldset class="delivery__form-group form-group">
+								<input type="tel" placeholder="+7 777 777 77 77">
 							</fieldset>
-							<fieldset class="contacts-feedback__form-group form-group" style="align-items: start">
-								<div class="contacts-feedback__form-title form-group__title" style="margin-top: 15px">Сообщение</div>
-								<div class="contacts-feedback__form-input form-input">
-									<textarea></textarea>
-									<div class="contacts-feedback__form-checkbox form-checkbox">
-										<input type="checkbox">
-										<label>Я согласен с <a href="">политикой обработки персональных данных.</a></label>
-									</div>
-								</div>
-							</fieldset>
-							<fieldset class="contacts-feedback__form-group form-group">
-								<div class="contacts-feedback__form-title form-group__title">Введите слово на картинке</div>
-								<div class="contacts-feedback__form-flex">
-									<div class="contacts-feedback__form-input form-input">
-										<input type="email" placeholder="">
-									</div>
-									<div class="contacts-feedback__form-antibot form-antibot">
-										<img src="img/anti-bot.webp" alt="">
-									</div>
-								</div>
-							</fieldset>
-							<fieldset class="contacts-feedback__form-group form-group">
-								<div class="contacts-feedback__form-title form-group__title"></div>
-								<button class="contacts-feedback__form-btn form-btn btn-red">
-									<span>Отправить</span>
-								</button>
+							<fieldset class="delivery__form-group form-group">
+								<input type="text" placeholder="">
 							</fieldset>
 						</form>
+						<div class="delivery__table">
+							<table>
+								<thead>
+								<tr>
+									<th>
+										<div class="delivery__table-number">
+											<span>Номер заказа</span>
+											<i>
+												<svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.64645 9.5806C3.84171 9.77587 4.15829 9.77587 4.35355 9.5806L7.53553 6.39862C7.7308 6.20336 7.7308 5.88678 7.53553 5.69152C7.34027 5.49625 7.02369 5.49625 6.82843 5.69152L4 8.51994L1.17157 5.69152C0.976311 5.49625 0.659728 5.49625 0.464466 5.69152C0.269204 5.88678 0.269204 6.20336 0.464466 6.39862L3.64645 9.5806ZM3.5 0V9.22705H4.5V0H3.5Z" fill="#571919"/>
+												</svg>
+											</i>
+										</div>
+									</th>
+									<th>Наименование</th>
+									<th>Размер</th>
+									<th>Дата и время</th>
+									<th>Цена</th>
+									<th>Количество</th>
+									<th>Итого</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr class="bg-tr">
+									<td>
+										<div class="delivery__table-checkbox table-checkbox">
+											<input type="checkbox">
+											<label>203241008</label>
+										</div>
+									</td>
+									<td>Боди с длинными рукавами Shape бежевый</td>
+									<td>3</td>
+									<td>
+										<div class="delivery__table-date">
+											25.07.2023
+											<span>14:14:09</span>
+										</div>
+									</td>
+									<td>3.499,00 руб </td>
+									<td>3</td>
+									<td class="bold-text">3.499,00 руб </td>
+								</tr>
+								<tr class="bg-tr">
+									<td>
+										<div class="delivery__table-checkbox table-checkbox">
+											<input type="checkbox">
+											<label>203241008</label>
+										</div>
+									</td>
+									<td>Боди с длинными рукавами Shape бежевый</td>
+									<td>3</td>
+									<td>
+										<div class="delivery__table-date">
+											25.07.2023
+											<span>14:14:09</span>
+										</div>
+									</td>
+									<td>3.499,00 руб </td>
+									<td>3</td>
+									<td class="bold-text">3.499,00 руб </td>
+								</tr>
+								<tr class="bg-tr">
+									<td>
+										<div class="delivery__table-checkbox table-checkbox">
+											<input type="checkbox">
+											<label>203241008</label>
+										</div>
+									</td>
+									<td>Боди с длинными рукавами Shape бежевый</td>
+									<td>3</td>
+									<td>
+										<div class="delivery__table-date">
+											25.07.2023
+											<span>14:14:09</span>
+										</div>
+									</td>
+									<td>3.499,00 руб </td>
+									<td>3</td>
+									<td class="bold-text">3.499,00 руб </td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
 					</div>
 				</div>
 			</section>
