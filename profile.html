@@ -7,7 +7,7 @@
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
-	<title>Доставка</title>
+	<title>Профиль</title>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
 </head>
 
@@ -177,168 +177,172 @@
     </div>
 </header>
 
-			<section class="delivery-info">
+			<section class="profile">
 				<div class="container">
-					<div class="delivery-info__inner">
-						<h1 class="delivery__title text48">Информация о доставке</h1>
-						<div class="delivery__text">
-							<p>В интернет - магазине, в зависимости от региона и адреса, доступны следующие виды доставок:</p>
-						</div>
-						<ul class="delivery__list delivery-info__list">
-							<li>Курьерская доставка с примеркой и частичным выкупом</li>
-							<li>Курьерская доставка без примерки</li>
-							<li>Доставка в пункты выдачи заказов</li>
-							<li>Доставка в постоматы</li>
-							<li>Самовывоз из магазина</li>
-							<li>Экспресс доставка из ближайшего магазина</li>
-						</ul>
-						<div class="delivery__text">
-							<p>Доставка всех заказов осуществляется сторонними курьерскими службами.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="delivery-cost">
-			<div class="container">
-				<div class="delivery-cost__inner">
-					<h2 class="delivery__title text40">Стоимость и сроки доставки</h2>
-					<div class="delivery__text">
-						<p class="bold-text">Сроки доставки зависят от выбранного способа доставки и города и в среднем составляют 2-14 дней.</p>
-						<p class="bold-text">Стоимость доставки зависит от вида доставки.</p>
-					</div>
-					<ul class="delivery__list delivery-cost__list">
-						<li>Экспресс доставка из магазина за 2 часа – 499 руб.</li>
-						<li>Доставка курьером - 399 руб.</li>
-						<li>До пункта выдачи или в постоматы от 299 руб.</li>
-						<li>Самовывоз из магазина – бесплатно</li>
-						<li>При покупке от 4500 рублей стоимость доставки - бесплатно.</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-			<section class="delivery-courier">
-				<div class="container">
-					<div class="delivery-courier__inner">
-						<h2 class="delivery__title text40">Доставка курьером с примеркой</h2>
-						<div class="delivery__text">
-							<p>В интернет - магазине, в зависимости от региона и адреса, доступна курьерская доставка с примеркой и частичным выкупом.Данный сервис позволяет перед покупкой примерить выбранные Вами товары и оставить только то, что подошло и отказаться от части товара.На примерку отводится 15 минут .Обратите внимание, что данный вид доставки недоступен, если Вы заказали более 10 вещей.Частичный выкуп недоступен для заказов, в которых присутствуют базовые акции.</p>
-						</div>
-						<div class="delivery__btns">
-							<div class="delivery__checkboxes">
-								<div class="delivery__checkbox">
-									<input type="checkbox">
-									<label></label>
-								</div>
-								<div class="delivery__checkbox delivery__checkbox2">
-									<input type="checkbox">
-									<label></label>
-								</div>
+					<h1 class="profile__title text40">Мой кабинет</h1>
+					<div class="profile__inner">
+						<div class="profile-sidebar">
+							<div class="profile-sidebar__links">
+								<a href="" class="profile-sidebar__link">
+									<i>
+										<img src="img/profile-icon.svg" alt="">
+									</i>
+									<span class="bold-text">Персональные данные</span>
+								</a>
+								<a href="" class="profile-sidebar__link">
+									<i>
+										<img src="img/profile-icon2.svg" alt="">
+									</i>
+									<span>Мои заказы</span>
+								</a>
 							</div>
-							<button class="delivery__btn btn-red">
-								<span>Отправить</span>
-							</button>
-							<button class="delivery__btn2 btn-pink">
-								<span>Подписаться на рассылку</span>
-							</button>
-							<div class="delivery__select custom_select">
-								<select>
-									<option value="Без бретелей">Без бретелей</option>
-									<option value="Моделирующие">Моделирующие</option>
-									<option value="Новинки">Новинки</option>
-									<option value="Без бретелей">Без бретелей</option>
-								</select>
+							<div class="profile-sidebar__images">
+								<a class="profile-sidebar__img" href="">
+									<img src="img/profile__img.webp" alt="">
+								</a>
+								<a class="profile-sidebar__img" href="">
+									<img src="img/profile__img2.webp" alt="">
+								</a>
 							</div>
 						</div>
-						<form class="delivery__form form">
-							<fieldset class="delivery__form-group form-group">
-								<input type="tel" placeholder="+7 777 777 77 77">
-							</fieldset>
-							<fieldset class="delivery__form-group form-group">
-								<input type="text" placeholder="">
-							</fieldset>
-						</form>
-						<div class="overflow-x">
-							<table>
-								<thead>
-								<tr>
-									<th>
-										<div class="table-number">
-											<span>Номер заказа</span>
-											<i>
-												<svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.64645 9.5806C3.84171 9.77587 4.15829 9.77587 4.35355 9.5806L7.53553 6.39862C7.7308 6.20336 7.7308 5.88678 7.53553 5.69152C7.34027 5.49625 7.02369 5.49625 6.82843 5.69152L4 8.51994L1.17157 5.69152C0.976311 5.49625 0.659728 5.49625 0.464466 5.69152C0.269204 5.88678 0.269204 6.20336 0.464466 6.39862L3.64645 9.5806ZM3.5 0V9.22705H4.5V0H3.5Z" fill="#571919"/>
-												</svg>
-											</i>
+						<div class="profile-content">
+							<div class="profile__subtitle">Профиль пользователя</div>
+							<form class="profile__form form">
+								<div class="profile__group">
+									<fieldset class="profile__form-group form-group">
+										<span class="input-text">Имя</span>
+										<input type="text" placeholder="">
+									</fieldset>
+									<fieldset class="profile__form-group form-group">
+										<span class="input-text">Фамилия</span>
+										<input type="text" placeholder="">
+									</fieldset>
+									<fieldset class="profile__form-group form-group">
+										<span class="input-text">Отчество</span>
+										<input type="text" placeholder="">
+									</fieldset>
+									<fieldset class="profile__form-group form-group">
+										<span class="input-text">Телефон</span>
+										<div class="profile__form-flex">
+											<input type="text" placeholder="">
+											<button class="profile__form-cms btn-pink">
+												<span>Подтвердить по СМС</span>
+											</button>
 										</div>
-									</th>
-									<th>Наименование</th>
-									<th>Размер</th>
-									<th>Дата и время</th>
-									<th>Цена</th>
-									<th>Количество</th>
-									<th>Итого</th>
-								</tr>
-								</thead>
-								<tbody>
-								<tr class="bg-tr">
-									<td>
-										<div class="table-checkbox">
-											<input type="checkbox">
-											<label>203241008</label>
-										</div>
-									</td>
-									<td>Боди с длинными рукавами Shape бежевый</td>
-									<td>3</td>
-									<td>
-										<div class="table-date">
-											25.07.2023
-											<span>14:14:09</span>
-										</div>
-									</td>
-									<td>3.499,00 руб </td>
-									<td>3</td>
-									<td class="bold-text">3.499,00 руб </td>
-								</tr>
-								<tr class="bg-tr">
-									<td>
-										<div class="table-checkbox">
-											<input type="checkbox">
-											<label>203241008</label>
-										</div>
-									</td>
-									<td>Боди с длинными рукавами Shape бежевый</td>
-									<td>3</td>
-									<td>
-										<div class="table-date">
-											25.07.2023
-											<span>14:14:09</span>
-										</div>
-									</td>
-									<td>3.499,00 руб </td>
-									<td>3</td>
-									<td class="bold-text">3.499,00 руб </td>
-								</tr>
-								<tr class="bg-tr">
-									<td>
-										<div class="table-checkbox">
-											<input type="checkbox">
-											<label>203241008</label>
-										</div>
-									</td>
-									<td>Боди с длинными рукавами Shape бежевый</td>
-									<td>3</td>
-									<td>
-										<div class="table-date">
-											25.07.2023
-											<span>14:14:09</span>
-										</div>
-									</td>
-									<td>3.499,00 руб </td>
-									<td>3</td>
-									<td class="bold-text">3.499,00 руб </td>
-								</tr>
-								</tbody>
-							</table>
+									</fieldset>
+									<fieldset class="profile__form-group form-group">
+										<span class="input-text">Дата рождения</span>
+										<input type="text" placeholder="">
+									</fieldset>
+								</div>
+								<div class="profile__group">
+									<div class="profile__form-subtitle">Пароль</div>
+									<fieldset class="profile__form-group form-group">
+										<span class="input-text">Новый пароль</span>
+										<input type="text" placeholder="">
+									</fieldset>
+									<fieldset class="profile__form-group form-group">
+										<span class="input-text">Подтверждение пароля</span>
+										<input type="text" placeholder="">
+									</fieldset>
+									<fieldset class="profile__form-group form-group">
+										<button class="profile__form-btn btn-red">
+											<span>Сохранить изменения</span>
+										</button>
+									</fieldset>
+								</div>
+							</form>
+							<div class="profile-orders">
+								<div class="profile-orders__title">Мои заказы</div>
+								<div class="overflow-x">
+									<table class="profile-table">
+										<thead>
+											<tr>
+												<th>
+													<div class="table-number">
+														<span>Номер заказа</span>
+														<i>
+															<svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M3.64645 9.5806C3.84171 9.77587 4.15829 9.77587 4.35355 9.5806L7.53553 6.39862C7.7308 6.20336 7.7308 5.88678 7.53553 5.69152C7.34027 5.49625 7.02369 5.49625 6.82843 5.69152L4 8.51994L1.17157 5.69152C0.976311 5.49625 0.659728 5.49625 0.464466 5.69152C0.269204 5.88678 0.269204 6.20336 0.464466 6.39862L3.64645 9.5806ZM3.5 0V9.22705H4.5V0H3.5Z" fill="#571919"/>
+															</svg>
+														</i>
+													</div>
+												</th>
+												<th>Дата и время</th>
+												<th>Сумма</th>
+												<th>Статус</th>
+												<th>Трек-номер</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>203241008</td>
+												<td>
+													<div class="table-date">
+														25.07.2023
+														<span>14:14:09</span>
+													</div>
+												</td>
+												<td class="bold-text">3.499,00 руб </td>
+												<td>
+													<div class="status green">
+														Выполнен
+													</div>
+												</td>
+												<td>
+													203241008
+													<a class="table-link" href="">Отследить</a>
+													<a class="table-link" href="">Развернуть</a>
+												</td>
+											</tr>
+											<tr class="bg-tr--active">
+												<td>203241008</td>
+												<td>
+													<div class="table-date">
+														25.07.2023
+														<span>14:14:09</span>
+													</div>
+												</td>
+												<td class="bold-text">3.499,00 руб </td>
+												<td>
+													<div class="status orange">
+														Выполнен
+													</div>
+												</td>
+												<td>
+													203241008
+													<a class="table-link" href="">Отследить</a>
+													<a class="table-link" href="">Развернуть</a>
+												</td>
+											</tr>
+											<tr class="bg-tr--active">
+												<td>203241008</td>
+												<td>
+													<div class="table-date">
+														25.07.2023
+														<span>14:14:09</span>
+													</div>
+												</td>
+												<td class="bold-text">3.499,00 руб </td>
+												<td>
+													<div class="status red">
+														Выполнен
+													</div>
+												</td>
+												<td>
+													203241008
+													<a class="table-link" href="">Отследить</a>
+													<a class="table-link" href="">Развернуть</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="profile-orders__info">
+									<div class="profile-orders__discount">Ваша скидка — 15%</div>
+									<div class="profile-orders__total">Итого: 10 497 руб.</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

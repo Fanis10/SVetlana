@@ -7,7 +7,7 @@
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
-	<title>Доставка</title>
+	<title>Товары</title>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
 </head>
 
@@ -177,172 +177,323 @@
     </div>
 </header>
 
-			<section class="delivery-info">
+			<section class="product">
 				<div class="container">
-					<div class="delivery-info__inner">
-						<h1 class="delivery__title text48">Информация о доставке</h1>
-						<div class="delivery__text">
-							<p>В интернет - магазине, в зависимости от региона и адреса, доступны следующие виды доставок:</p>
+					<div class="product__inner">
+						<div class="product__left">
+							<div class="gallery">
+								<div class="gallery__big swiper mySwiper2">
+									<div class="swiper-wrapper gallery-group">
+										<a class="swiper-slide" data-fancybox="gallery" href="img/gallery-img.webp">
+											<img src="img/gallery-img.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/gallery-img.webp">
+											<img src="img/gallery-img.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/gallery-img.webp">
+											<img src="img/gallery-img.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/gallery-img.webp">
+											<img src="img/gallery-img.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/gallery-img.webp">
+											<img src="img/gallery-img.webp" alt="">
+										</a>
+									</div>
+									<div class="swiper-slide__btns">
+										<div class="swiper-button-prev">
+											<svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0.93934 10.9393C0.353553 11.5251 0.353553 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.93934 10.9393ZM25 13.5C25.8284 13.5 26.5 12.8284 26.5 12C26.5 11.1716 25.8284 10.5 25 10.5V13.5ZM2 13.5L25 13.5V10.5L2 10.5L2 13.5Z" fill="#E6D6BF"/>
+											</svg>
+										</div>
+										<div class="swiper-button-next">
+											<svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM26.0607 13.0607C26.6464 12.4749 26.6464 11.5251 26.0607 10.9393L16.5147 1.3934C15.9289 0.807611 14.9792 0.807611 14.3934 1.3934C13.8076 1.97919 13.8076 2.92893 14.3934 3.51472L22.8787 12L14.3934 20.4853C13.8076 21.0711 13.8076 22.0208 14.3934 22.6066C14.9792 23.1924 15.9289 23.1924 16.5147 22.6066L26.0607 13.0607ZM2 13.5L25 13.5V10.5L2 10.5L2 13.5Z" fill="#E6D6BF"/>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="gallery__small-wrapp">
+									<div thumbsslider="" class="gallery__small swiper mySwiper">
+										<div class="swiper-wrapper">
+											<a class="swiper-slide">
+												<img src="img/gallery-img.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/gallery-img.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/gallery-img.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/gallery-img.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/gallery-img.webp" alt="">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product__items">
+								<div class="product__item">
+									<div class="product__item-icon">
+										<img src="img/product-icon.svg" alt="">
+									</div>
+									<div class="product__item-text">Доставка осуществляется компанией Яндекс.Доставка, СДЭК и Почтой России</div>
+								</div>
+								<div class="product__item">
+									<div class="product__item-icon">
+										<img src="img/product-icon2.svg" alt="">
+									</div>
+									<div class="product__item-text">Производитель оставляет за собой право изменять характеристики товара, его внешний вид и комплектность без предварительного уведомления продавца.</div>
+								</div>
+							</div>
 						</div>
-						<ul class="delivery__list delivery-info__list">
-							<li>Курьерская доставка с примеркой и частичным выкупом</li>
-							<li>Курьерская доставка без примерки</li>
-							<li>Доставка в пункты выдачи заказов</li>
-							<li>Доставка в постоматы</li>
-							<li>Самовывоз из магазина</li>
-							<li>Экспресс доставка из ближайшего магазина</li>
-						</ul>
-						<div class="delivery__text">
-							<p>Доставка всех заказов осуществляется сторонними курьерскими службами.</p>
+						<div class="product__right">
+							<h1 class="product__title text40">Бюстгальтер-Бандо Giada из Микрофибры</h1>
+							<div class="product__group">
+								<div class="product__info">
+									<div class="product__price">
+										<div class="product__price-old">Старая цена: 6 999 руб </div>
+										<div class="product__price-new">Цена: 4 999 руб </div>
+									</div>
+									<button class="product__btn btn-red">
+										<span>В корзину</span>
+									</button>
+								</div>
+								<div class="product__selects">
+									<div class="product__select custom_select" style="margin-right: 10px">
+										<select>
+											<option value="Выберите размер">Выберите размер</option>
+											<option value="Выберите размер">Выберите размер</option>
+											<option value="Выберите размер">Выберите размер</option>
+											<option value="Выберите размер">Выберите размер</option>
+										</select>
+									</div>
+									<div class="product__select custom_select">
+										<select>
+											<option value="Цвет">Цвет</option>
+											<option value="Цвет">Цвет</option>
+											<option value="Цвет">Цвет</option>
+											<option value="Цвет">Цвет</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="product__group">
+								<div class="product__subtitle">Описание</div>
+								<div class="product__text">
+									<p>Микрофибра совершенно уникальна благодаря своим многочисленным особенностям: она ультратонкая и очень мягкая на ощупь, прилегающая и шелковистая, почти неосязаемая, с эффектом «второй кожи», не ощущается при ношении… идеальный союзник любой женщины во всех ситуациях, каждый день.</p>
+									<p>Микрофибра  совершенно уникальна благодаря своим многочисленным особенностям: она ультратонкая и очень мягкая на ощупь, прилегающая и шелковистая, почти неосязаемая, с эффектом «второй кожи», не ощущается при ношении… идеальный союзник любой женщины во всех ситуациях, каждый день.</p>
+								</div>
+							</div>
+							<div class="product__group">
+								<div class="product__subtitle">Состав и уход:</div>
+								<div class="product__text">
+									<p>Основная ткань: 76 % Полиамид, 24 % ЭластанТюль: 81 % Полиамид, 19 % ЭластанТкань чашки: 58 % Полиэстер, 42 % Хлопок</p>
+									<p>Машинная стирка при температуре не более 30 °C.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="delivery-cost">
-			<div class="container">
-				<div class="delivery-cost__inner">
-					<h2 class="delivery__title text40">Стоимость и сроки доставки</h2>
-					<div class="delivery__text">
-						<p class="bold-text">Сроки доставки зависят от выбранного способа доставки и города и в среднем составляют 2-14 дней.</p>
-						<p class="bold-text">Стоимость доставки зависит от вида доставки.</p>
-					</div>
-					<ul class="delivery__list delivery-cost__list">
-						<li>Экспресс доставка из магазина за 2 часа – 499 руб.</li>
-						<li>Доставка курьером - 399 руб.</li>
-						<li>До пункта выдачи или в постоматы от 299 руб.</li>
-						<li>Самовывоз из магазина – бесплатно</li>
-						<li>При покупке от 4500 рублей стоимость доставки - бесплатно.</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-			<section class="delivery-courier">
+			<section class="clothes product-clothes">
 				<div class="container">
-					<div class="delivery-courier__inner">
-						<h2 class="delivery__title text40">Доставка курьером с примеркой</h2>
-						<div class="delivery__text">
-							<p>В интернет - магазине, в зависимости от региона и адреса, доступна курьерская доставка с примеркой и частичным выкупом.Данный сервис позволяет перед покупкой примерить выбранные Вами товары и оставить только то, что подошло и отказаться от части товара.На примерку отводится 15 минут .Обратите внимание, что данный вид доставки недоступен, если Вы заказали более 10 вещей.Частичный выкуп недоступен для заказов, в которых присутствуют базовые акции.</p>
+					<div class="clothes__inner">
+						<div class="clothes__top">
+							<h2 style="margin-right: 0" class="clothes__title text48">Вам также могут понравится</h2>
 						</div>
-						<div class="delivery__btns">
-							<div class="delivery__checkboxes">
-								<div class="delivery__checkbox">
-									<input type="checkbox">
-									<label></label>
-								</div>
-								<div class="delivery__checkbox delivery__checkbox2">
-									<input type="checkbox">
-									<label></label>
-								</div>
-							</div>
-							<button class="delivery__btn btn-red">
-								<span>Отправить</span>
-							</button>
-							<button class="delivery__btn2 btn-pink">
-								<span>Подписаться на рассылку</span>
-							</button>
-							<div class="delivery__select custom_select">
-								<select>
-									<option value="Без бретелей">Без бретелей</option>
-									<option value="Моделирующие">Моделирующие</option>
-									<option value="Новинки">Новинки</option>
-									<option value="Без бретелей">Без бретелей</option>
-								</select>
-							</div>
-						</div>
-						<form class="delivery__form form">
-							<fieldset class="delivery__form-group form-group">
-								<input type="tel" placeholder="+7 777 777 77 77">
-							</fieldset>
-							<fieldset class="delivery__form-group form-group">
-								<input type="text" placeholder="">
-							</fieldset>
-						</form>
-						<div class="overflow-x">
-							<table>
-								<thead>
-								<tr>
-									<th>
-										<div class="table-number">
-											<span>Номер заказа</span>
-											<i>
-												<svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.64645 9.5806C3.84171 9.77587 4.15829 9.77587 4.35355 9.5806L7.53553 6.39862C7.7308 6.20336 7.7308 5.88678 7.53553 5.69152C7.34027 5.49625 7.02369 5.49625 6.82843 5.69152L4 8.51994L1.17157 5.69152C0.976311 5.49625 0.659728 5.49625 0.464466 5.69152C0.269204 5.88678 0.269204 6.20336 0.464466 6.39862L3.64645 9.5806ZM3.5 0V9.22705H4.5V0H3.5Z" fill="#571919"/>
+						<div class="clothes__slider">
+							<div class="clothes__swiper swiper mySwiper">
+								<div class="clothes__swiper-wrapper swiper-wrapper">
+									<div class="clothes-card swiper-slide">
+										<div class="clothes-card__top">
+											<a href="" class="clothes-card__img">
+												<img src="img/clothes-img5.webp" alt="">
+											</a>
+											<div class="clothes-card__favourites favourites">
+												<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.29 2.85297C21.03 4.71897 21.03 7.50497 19.292 9.37197L19.291 9.37397L10.998 18.14L2.68196 9.37497C0.975957 7.49497 0.976957 4.73097 2.68196 2.85097C3.48696 1.99997 4.64296 1.50197 5.86996 1.49797C7.10296 1.50297 8.26596 2.00297 9.07496 2.85797L9.07896 2.86197L10.414 4.25297L10.989 4.85197L11.566 4.25597L12.914 2.86397L12.919 2.85897L12.924 2.85297C13.722 1.99597 14.88 1.49597 16.107 1.49597C17.335 1.49597 18.493 1.99597 19.29 2.85297Z" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
 												</svg>
-											</i>
+											</div>
 										</div>
-									</th>
-									<th>Наименование</th>
-									<th>Размер</th>
-									<th>Дата и время</th>
-									<th>Цена</th>
-									<th>Количество</th>
-									<th>Итого</th>
-								</tr>
-								</thead>
-								<tbody>
-								<tr class="bg-tr">
-									<td>
-										<div class="table-checkbox">
-											<input type="checkbox">
-											<label>203241008</label>
+										<div class="clothes-card__desc">
+											<a href="" class="clothes-card__title">Бюстгальтер-Бандо Giada из Микрофибры</a>
+											<div class="clothes-card__flex">
+												<div class="clothes-card__price">3.499,00 руб</div>
+												<button class="clothes-card__btn btn-pink">
+													<span>Купить</span>
+												</button>
+											</div>
 										</div>
-									</td>
-									<td>Боди с длинными рукавами Shape бежевый</td>
-									<td>3</td>
-									<td>
-										<div class="table-date">
-											25.07.2023
-											<span>14:14:09</span>
+									</div>
+									<div class="clothes-card swiper-slide">
+										<div class="clothes-card__top">
+											<a href="" class="clothes-card__img">
+												<img src="img/clothes-img6.webp" alt="">
+											</a>
+											<div class="clothes-card__favourites favourites">
+												<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.29 2.85297C21.03 4.71897 21.03 7.50497 19.292 9.37197L19.291 9.37397L10.998 18.14L2.68196 9.37497C0.975957 7.49497 0.976957 4.73097 2.68196 2.85097C3.48696 1.99997 4.64296 1.50197 5.86996 1.49797C7.10296 1.50297 8.26596 2.00297 9.07496 2.85797L9.07896 2.86197L10.414 4.25297L10.989 4.85197L11.566 4.25597L12.914 2.86397L12.919 2.85897L12.924 2.85297C13.722 1.99597 14.88 1.49597 16.107 1.49597C17.335 1.49597 18.493 1.99597 19.29 2.85297Z" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+												</svg>
+											</div>
 										</div>
-									</td>
-									<td>3.499,00 руб </td>
-									<td>3</td>
-									<td class="bold-text">3.499,00 руб </td>
-								</tr>
-								<tr class="bg-tr">
-									<td>
-										<div class="table-checkbox">
-											<input type="checkbox">
-											<label>203241008</label>
+										<div class="clothes-card__desc">
+											<a href="" class="clothes-card__title">Бюстгальтер-Бандо Giada из Микрофибры</a>
+											<div class="clothes-card__flex">
+												<div class="clothes-card__price">3.499,00 руб</div>
+												<button class="clothes-card__btn btn-pink">
+													<span>Купить</span>
+												</button>
+											</div>
 										</div>
-									</td>
-									<td>Боди с длинными рукавами Shape бежевый</td>
-									<td>3</td>
-									<td>
-										<div class="table-date">
-											25.07.2023
-											<span>14:14:09</span>
+									</div>
+									<div class="clothes-card swiper-slide">
+										<div class="clothes-card__top">
+											<a href="" class="clothes-card__img">
+												<img src="img/clothes-img7.webp" alt="">
+											</a>
+											<div class="clothes-card__favourites favourites">
+												<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.29 2.85297C21.03 4.71897 21.03 7.50497 19.292 9.37197L19.291 9.37397L10.998 18.14L2.68196 9.37497C0.975957 7.49497 0.976957 4.73097 2.68196 2.85097C3.48696 1.99997 4.64296 1.50197 5.86996 1.49797C7.10296 1.50297 8.26596 2.00297 9.07496 2.85797L9.07896 2.86197L10.414 4.25297L10.989 4.85197L11.566 4.25597L12.914 2.86397L12.919 2.85897L12.924 2.85297C13.722 1.99597 14.88 1.49597 16.107 1.49597C17.335 1.49597 18.493 1.99597 19.29 2.85297Z" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+												</svg>
+											</div>
 										</div>
-									</td>
-									<td>3.499,00 руб </td>
-									<td>3</td>
-									<td class="bold-text">3.499,00 руб </td>
-								</tr>
-								<tr class="bg-tr">
-									<td>
-										<div class="table-checkbox">
-											<input type="checkbox">
-											<label>203241008</label>
+										<div class="clothes-card__desc">
+											<a href="" class="clothes-card__title">Бюстгальтер-Бандо Giada из Микрофибры</a>
+											<div class="clothes-card__flex">
+												<div class="clothes-card__price">3.499,00 руб</div>
+												<button class="clothes-card__btn btn-pink">
+													<span>Купить</span>
+												</button>
+											</div>
 										</div>
-									</td>
-									<td>Боди с длинными рукавами Shape бежевый</td>
-									<td>3</td>
-									<td>
-										<div class="table-date">
-											25.07.2023
-											<span>14:14:09</span>
+									</div>
+									<div class="clothes-card swiper-slide">
+										<div class="clothes-card__top">
+											<a href="" class="clothes-card__img">
+												<img src="img/clothes-img8.webp" alt="">
+											</a>
+											<div class="clothes-card__favourites favourites">
+												<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.29 2.85297C21.03 4.71897 21.03 7.50497 19.292 9.37197L19.291 9.37397L10.998 18.14L2.68196 9.37497C0.975957 7.49497 0.976957 4.73097 2.68196 2.85097C3.48696 1.99997 4.64296 1.50197 5.86996 1.49797C7.10296 1.50297 8.26596 2.00297 9.07496 2.85797L9.07896 2.86197L10.414 4.25297L10.989 4.85197L11.566 4.25597L12.914 2.86397L12.919 2.85897L12.924 2.85297C13.722 1.99597 14.88 1.49597 16.107 1.49597C17.335 1.49597 18.493 1.99597 19.29 2.85297Z" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+												</svg>
+											</div>
 										</div>
-									</td>
-									<td>3.499,00 руб </td>
-									<td>3</td>
-									<td class="bold-text">3.499,00 руб </td>
-								</tr>
-								</tbody>
-							</table>
+										<div class="clothes-card__desc">
+											<a href="" class="clothes-card__title">Бюстгальтер-Бандо Giada из Микрофибры</a>
+											<div class="clothes-card__flex">
+												<div class="clothes-card__price">3.499,00 руб</div>
+												<button class="clothes-card__btn btn-pink">
+													<span>Купить</span>
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="clothes-card swiper-slide">
+										<div class="clothes-card__top">
+											<a href="" class="clothes-card__img">
+												<img src="img/clothes-img5.webp" alt="">
+											</a>
+											<div class="clothes-card__favourites favourites">
+												<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.29 2.85297C21.03 4.71897 21.03 7.50497 19.292 9.37197L19.291 9.37397L10.998 18.14L2.68196 9.37497C0.975957 7.49497 0.976957 4.73097 2.68196 2.85097C3.48696 1.99997 4.64296 1.50197 5.86996 1.49797C7.10296 1.50297 8.26596 2.00297 9.07496 2.85797L9.07896 2.86197L10.414 4.25297L10.989 4.85197L11.566 4.25597L12.914 2.86397L12.919 2.85897L12.924 2.85297C13.722 1.99597 14.88 1.49597 16.107 1.49597C17.335 1.49597 18.493 1.99597 19.29 2.85297Z" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+												</svg>
+											</div>
+										</div>
+										<div class="clothes-card__desc">
+											<a href="" class="clothes-card__title">Бюстгальтер-Бандо Giada из Микрофибры</a>
+											<div class="clothes-card__flex">
+												<div class="clothes-card__price">3.499,00 руб</div>
+												<button class="clothes-card__btn btn-pink">
+													<span>Купить</span>
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="clothes-card swiper-slide">
+										<div class="clothes-card__top">
+											<a href="" class="clothes-card__img">
+												<img src="img/clothes-img6.webp" alt="">
+											</a>
+											<div class="clothes-card__favourites favourites">
+												<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.29 2.85297C21.03 4.71897 21.03 7.50497 19.292 9.37197L19.291 9.37397L10.998 18.14L2.68196 9.37497C0.975957 7.49497 0.976957 4.73097 2.68196 2.85097C3.48696 1.99997 4.64296 1.50197 5.86996 1.49797C7.10296 1.50297 8.26596 2.00297 9.07496 2.85797L9.07896 2.86197L10.414 4.25297L10.989 4.85197L11.566 4.25597L12.914 2.86397L12.919 2.85897L12.924 2.85297C13.722 1.99597 14.88 1.49597 16.107 1.49597C17.335 1.49597 18.493 1.99597 19.29 2.85297Z" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+												</svg>
+											</div>
+										</div>
+										<div class="clothes-card__desc">
+											<a href="" class="clothes-card__title">Бюстгальтер-Бандо Giada из Микрофибры</a>
+											<div class="clothes-card__flex">
+												<div class="clothes-card__price">3.499,00 руб</div>
+												<button class="clothes-card__btn btn-pink">
+													<span>Купить</span>
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="clothes-card swiper-slide">
+										<div class="clothes-card__top">
+											<a href="" class="clothes-card__img">
+												<img src="img/clothes-img7.webp" alt="">
+											</a>
+											<div class="clothes-card__favourites favourites">
+												<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.29 2.85297C21.03 4.71897 21.03 7.50497 19.292 9.37197L19.291 9.37397L10.998 18.14L2.68196 9.37497C0.975957 7.49497 0.976957 4.73097 2.68196 2.85097C3.48696 1.99997 4.64296 1.50197 5.86996 1.49797C7.10296 1.50297 8.26596 2.00297 9.07496 2.85797L9.07896 2.86197L10.414 4.25297L10.989 4.85197L11.566 4.25597L12.914 2.86397L12.919 2.85897L12.924 2.85297C13.722 1.99597 14.88 1.49597 16.107 1.49597C17.335 1.49597 18.493 1.99597 19.29 2.85297Z" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+												</svg>
+											</div>
+										</div>
+										<div class="clothes-card__desc">
+											<a href="" class="clothes-card__title">Бюстгальтер-Бандо Giada из Микрофибры</a>
+											<div class="clothes-card__flex">
+												<div class="clothes-card__price">3.499,00 руб</div>
+												<button class="clothes-card__btn btn-pink">
+													<span>Купить</span>
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="clothes-card swiper-slide">
+										<div class="clothes-card__top">
+											<a href="" class="clothes-card__img">
+												<img src="img/clothes-img8.webp" alt="">
+											</a>
+											<div class="clothes-card__favourites favourites">
+												<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.29 2.85297C21.03 4.71897 21.03 7.50497 19.292 9.37197L19.291 9.37397L10.998 18.14L2.68196 9.37497C0.975957 7.49497 0.976957 4.73097 2.68196 2.85097C3.48696 1.99997 4.64296 1.50197 5.86996 1.49797C7.10296 1.50297 8.26596 2.00297 9.07496 2.85797L9.07896 2.86197L10.414 4.25297L10.989 4.85197L11.566 4.25597L12.914 2.86397L12.919 2.85897L12.924 2.85297C13.722 1.99597 14.88 1.49597 16.107 1.49597C17.335 1.49597 18.493 1.99597 19.29 2.85297Z" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+												</svg>
+											</div>
+										</div>
+										<div class="clothes-card__desc">
+											<a href="" class="clothes-card__title">Бюстгальтер-Бандо Giada из Микрофибры</a>
+											<div class="clothes-card__flex">
+												<div class="clothes-card__price">3.499,00 руб</div>
+												<button class="clothes-card__btn btn-pink">
+													<span>Купить</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="clothes__slider-nav">
+								<div class="swiper-button-next">
+									<svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM26.0607 13.0607C26.6464 12.4749 26.6464 11.5251 26.0607 10.9393L16.5147 1.3934C15.9289 0.807611 14.9792 0.807611 14.3934 1.3934C13.8076 1.97919 13.8076 2.92893 14.3934 3.51472L22.8787 12L14.3934 20.4853C13.8076 21.0711 13.8076 22.0208 14.3934 22.6066C14.9792 23.1924 15.9289 23.1924 16.5147 22.6066L26.0607 13.0607ZM2 13.5L25 13.5V10.5L2 10.5L2 13.5Z" fill="#E6D6BF"/>
+									</svg>
+								</div>
+								<div class="swiper-button-prev">
+									<svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.93934 10.9393C0.353553 11.5251 0.353553 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.93934 10.9393ZM25 13.5C25.8284 13.5 26.5 12.8284 26.5 12C26.5 11.1716 25.8284 10.5 25 10.5V13.5ZM2 13.5L25 13.5V10.5L2 10.5L2 13.5Z" fill="#E6D6BF"/>
+									</svg>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+		</section>
 
 		<footer class="footer">
     <div class="container">
