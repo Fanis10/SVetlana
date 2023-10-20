@@ -26,9 +26,58 @@
 						<li><a href="catalog2.html">Каталог 2</a></li>
 						<li><a href="catalog3.html">Каталог 3</a></li>
 						<li><a href="profile.html">Профиль</a></li>
+						<li><a href="registration.html">Регистрация</a></li>
+						<li><a href="login.html">Вход</a></li>
+						<li><a href="password-recovery.html">Забыли пароль?</a></li>
+						<li><a href="favourites.html">Избранное</a></li>
+						<li><a href="search.html">Поиск</a></li>
+						<li><a href="basket.html">Корзина</a></li>
+						<li>
+							<button class="btn-pink" style="width: 250px; height: 55px" data-modal="contactModal">Модальное окно</button>
+						</li>
 					</ul>
 				</div>
 			</div>
+
+		<div class="modal" id="contactModal">
+			<div class="modal__dialog">
+				<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+					Х Закрыть
+				</button>
+				<div class="modal__content">
+					<h1 class="login__title text40">Вход</h1>
+					<form class="profile__form form">
+						<div class="profile__group">
+							<fieldset class="profile__form-group form-group">
+								<span class="input-text">Электронная почта</span>
+								<input type="email" placeholder="">
+							</fieldset>
+							<fieldset class="profile__form-group form-group">
+								<span class="input-text">Пароль</span>
+								<input type="text" placeholder="">
+							</fieldset>
+							<fieldset class="profile__form-group form-group">
+								<a class="profile__form-password form-password" href="">Забыли пароль?</a>
+								<button style="margin-top: 20px" class="profile__form-btn btn-red">
+									<span>Войти</span>
+								</button>
+							</fieldset>
+						</div>
+					</form>
+					<div class="socials">
+						<div class="socials__title">Войти при помощи</div>
+						<div class="socials__items">
+							<a href="" class="socials__item">
+								<img src="img/vk.svg" alt="">
+							</a>
+							<a href="" class="socials__item">
+								<img src="img/google.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</div>
 	<script src="js/libs.min.js"></script>
